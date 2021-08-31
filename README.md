@@ -12,7 +12,7 @@ This repository present the contents developed for my Bachelor Thesis, titled: *
 This repository is organized in the following folders:
 - **_Notebooks_**: Include Python notebooks developed in Google Colaboratory with `.ipynb` format.
 - **_Models_**: Contains the trained models for this project with the Mask Inference model implemented by the Nussl library.
-- **_Images_**: Include the images used in the `READ.me` of this repository.
+- **_Images_**: Include the images used in the `README.md` of this repository.
 ***
 ## How to obtain the Bach10 Dataset
 The Bach10 dataset will contain the audio mixes of each part and the ensemble of ten pieces of four-part J.S. Bach chorales. The audio mixes of the four parts (Soprano, Alto, Tenor and Bass) of each piece are performed by violin, clarinet, saxophone and bassoon, respectively.
