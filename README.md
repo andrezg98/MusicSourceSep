@@ -4,7 +4,9 @@
 Music source separation is the task of recovering the audio signals from the isolated music sources that conform a musical mix. Generally, in chamber music pieces, it is common to associate each musical source to each instrument present in the piece.
 
 <!-- ![Repo image](https://github.com/andrezg98/MusicSourceSep/blob/main/Images/source_separation_training.png?raw=true) -->
-<img src="https://github.com/andrezg98/MusicSourceSep/blob/main/Images/source_separation_training.png?raw=true" width="700" height="300" align="middle">
+<p align="center">
+  <img src="https://github.com/andrezg98/MusicSourceSep/blob/main/Images/source_separation_training.png?raw=true" width="650" height="280" align="middle">
+</p>
 
 This repository present the contents developed for my Bachelor Thesis, titled: ***"Separación de Fuentes Musicales en Conjuntos de Cámara de Música Clásica"***.
 ***
