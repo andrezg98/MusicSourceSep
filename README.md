@@ -12,6 +12,7 @@ This repository present the contents developed for my Bachelor Thesis, titled: *
 This repository is organized in the following folders:
 - **_Notebooks_**: Include Python notebooks developed in Google Colaboratory with `.ipynb` format.
 - **_Models_**: Contains the trained models for this project with the _Mask Inference_ model implemented by the Nussl library.
+- **_Results_**: It contains the tables (in `.csv` format) with the results obtained in all the tests performed for each model.
 - **_Images_**: Include the images used in the `README.md` of this repository.
 ***
 ## How to obtain the Bach10 Dataset
@@ -21,9 +22,10 @@ To download the dataset for the first time, you can access [here](https://https:
 ```
 !unzip bach10_dataset_compressed.zip
 ```
+
+If you want to use the pre-processed datasets tailored to the input of each model, which have been used during this project, you can access to the public folder [Datasets](https://drive.google.com/drive/folders/1IuS0YSDNNGp7i7t-RdARWlmmaOEOPD9k?usp=sharing) in Google Drive (enabled for this purpose).
 ***
 ## Evaluation metrics and results
-
 ### Overall results: Comparison of models 
 The next table shows the overall results for each different model training configuration for the **violin**.
 
