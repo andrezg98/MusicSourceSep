@@ -55,6 +55,6 @@ Let's see the result offered by the best model for each instrument:
 Now, let's see represented the separation that the model performs on a piece of the test set. 
 The separate source in this case is the violin.
 
-<img align="center" src="https://github.com/andrezg98/MusicSourceSep/blob/main/Images/violin sep.png?raw=true" width="700" height="300">
+<img align="center" src="https://github.com/andrezg98/MusicSourceSep/blob/main/Images/violin-sep.png?raw=true" width="700" height="300">
 
 To play the audio from the separate sources access the `Bach10_Nussl_SepModel.ipynb` notebook in the Nussl folder of this repository.
