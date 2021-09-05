@@ -82,9 +82,10 @@ This functionality can be found at the end of the `Bach10_Nussl_SepModel.ipynb` 
 ```
 @masterthesis{ tfgandreaziqing2021,
   title = {Separación de Fuentes Musicales en Conjuntos de Cámara de Música Clásica},
-  author = {Andrea Ziqing Gallardo Bendito},
+  school = {Universidad Carlos III de Madrid},
+  author = {Gallardo Bendito, Andrea Ziqing},
   type = {Trabajo Fin de Grado},
   year = {2021},
-  school = {Universidad Carlos III de Madrid}
+  publisher = {Universidad Carlos III de Madrid}
 }
 ```
