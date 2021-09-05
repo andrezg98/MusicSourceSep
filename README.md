@@ -25,9 +25,12 @@ To download the dataset for the first time, you can access [here](https://https:
 
 If you want to use the pre-processed datasets tailored to the input of each model, which have been used during this project, you can access to the public folder [Datasets](https://drive.google.com/drive/folders/1IuS0YSDNNGp7i7t-RdARWlmmaOEOPD9k?usp=sharing) in Google Drive (enabled for this purpose).
 ***
+## How to obtain the trained models
+To use the models trained during this project you can access to the public folder [Models](https://drive.google.com/drive/folders/1hNC4EbaFOCKTVs-DXzoIb1EdoKPf_jH0?usp=sharing) in Google Drive (enabled for this purpose).
+***
 ## Evaluation metrics and results
 ### Overall results: Comparison of models 
-The next table shows the overall results for each different model training configuration for the **violin**.
+The next table shows the overall results for each different _Mask Inference_ model training configuration for the **violin**.
 
 _Metrics_: mean of the leave-one-out experiments together with their corresponding standard deviations.
 
@@ -41,6 +44,12 @@ _Metrics_: mean of the leave-one-out experiments together with their correspondi
 | _Model F_ |  -3.3146 ± 2.0966  |  -4.4473 ± 2.0246  |   2.4107 ± 2.6533  | 1.1831 ± 0.5565 |
 
 From the table above we obtain that the best model that offers the best results for the evaluation metrics is the _Model E_.
+
+_Mask Inference_ Model E has the following configuration:
+
+|  Model  | Max Mix | Hidden Size | Layers | Dropout | Epoch Length | Max Epoch |
+|:-------:|:-------:|:-----------:|:------:|:-------:|:------------:|:---------:|
+| Model E |    10   |     200     |    2   |   0.2   |      25      |     3     |
 
 Let's see the result offered by the best model for each instrument:
 
@@ -58,3 +67,14 @@ The separate source in this case is the violin.
 <img align="center" src="https://github.com/andrezg98/MusicSourceSep/blob/main/Images/violin-sep.png?raw=true" width="700" height="300">
 
 To play the audio from the separate sources access the `Bach10_Nussl_SepModel.ipynb` notebook in the Nussl folder of this repository.
+You will see a player similar to this one:
+
+<img align="center" src="https://github.com/andrezg98/MusicSourceSep/blob/main/Images/reproductor.PNG?raw=true" width="500" height="90">
+
+***
+## Try it with your own audio files!
+An option has been implemented so that you can upload your own music mix and test the separation performed by the model. 
+
+The audio file must be in `.wav` format and contain at least one of the instruments on which the separation model has been trained (_violin_, _bassoon_, _clarinet_ or _saxophone_).
+
+This functionality can be found at the end of the `Bach10_Nussl_SepModel.ipynb` notebook in the Nussl folder of this repository.
