@@ -77,3 +77,14 @@ An option has been implemented so that you can upload your own music mix and tes
 The audio file must be in `.wav` format and contain at least one of the instruments on which the separation model has been trained (_violin_, _bassoon_, _clarinet_ or _saxophone_).
 
 This functionality can be found at the end of the `Bach10_Nussl_SepModel.ipynb` notebook in the Nussl folder of this repository.
+***
+## Citing
+```
+@masterthesis{ tfgandreaziqing2021,
+  title = {Separación de Fuentes Musicales en Conjuntos de Cámara de Música Clásica},
+  author = {Andrea Ziqing Gallardo Bendito},
+  type = {Trabajo Fin de Grado},
+  year = {2021},
+  school = {Universidad Carlos III de Madrid}
+}
+```
