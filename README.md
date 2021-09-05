@@ -11,7 +11,6 @@ This repository present the contents developed for my Bachelor Thesis, titled: *
 ## Repository Structure
 This repository is organized in the following folders:
 - **_Notebooks_**: Include Python notebooks developed in Google Colaboratory with `.ipynb` format.
-- **_Models_**: Contains the trained models for this project with the _Mask Inference_ model implemented by the Nussl library.
 - **_Results_**: It contains the tables (in `.csv` format) with the results obtained in all the tests performed for each model.
 - **_Images_**: Include the images used in the `README.md` of this repository.
 ***
@@ -26,7 +25,7 @@ To download the dataset for the first time, you can access [here](https://https:
 If you want to use the pre-processed datasets tailored to the input of each model, which have been used during this project, you can access to the public folder [Datasets](https://drive.google.com/drive/folders/1IuS0YSDNNGp7i7t-RdARWlmmaOEOPD9k?usp=sharing) in Google Drive (enabled for this purpose).
 ***
 ## How to obtain the trained models
-To use the models trained during this project you can access to the public folder [Models](https://drive.google.com/drive/folders/1hNC4EbaFOCKTVs-DXzoIb1EdoKPf_jH0?usp=sharing) in Google Drive (enabled for this purpose).
+To use the trained models for this project with the _Mask Inference_ model implemented by the [Nussl](https://nussl.github.io/docs/) library, you can access to the public folder [Models](https://drive.google.com/drive/folders/1hNC4EbaFOCKTVs-DXzoIb1EdoKPf_jH0?usp=sharing) in Google Drive (enabled for this purpose).
 ***
 ## Evaluation metrics and results
 ### Overall results: Comparison of models 
